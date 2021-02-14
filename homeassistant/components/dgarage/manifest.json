@@ -1,0 +1,8 @@
+{
+  "domain": "dgarage",
+  "name": "dGarage",
+  "documentation": "https://www.home-assistant.io/integrations/dgarage",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": []
+}
