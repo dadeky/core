@@ -17,7 +17,7 @@ from homeassistant.components.cover import (
     SUPPORT_CLOSE,
     SUPPORT_OPEN,
     SUPPORT_STOP,
-    CoverDevice,
+    CoverEntity,
 )
 from homeassistant.const import (
     CONF_COVERS,
@@ -77,7 +77,7 @@ def async_setup_platform(hass, config, async_add_devices, discovery_info=None):
     async_add_devices(covers, True)
 
 
-class dGarageCover(CoverDevice):
+class dGarageCover(CoverEntity):
     """Representation of a dGarage cover."""
 
     # pylint: disable=no-self-use
